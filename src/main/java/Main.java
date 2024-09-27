@@ -1,6 +1,8 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Race race = new Race();
+        race.InputCarsData();
+        race.RaceResult();
     }
 }
